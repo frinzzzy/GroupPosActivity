@@ -159,7 +159,7 @@ namespace GroupPosActivity
             bigking.Width += 10; bigking.Height += 10;
             bigking.Left -= 5;  bigking.Top -= 5;
         }
-
+        
         private void bigking_MouseLeave(object sender, EventArgs e)
         {
             bigking.Width -= 10; bigking.Height -= 10;

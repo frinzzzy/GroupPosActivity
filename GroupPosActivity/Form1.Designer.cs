@@ -81,7 +81,7 @@
             whopper.BackColor = Color.White;
             whopper.Cursor = Cursors.Hand;
             whopper.Image = (Image)resources.GetObject("whopper.Image");
-            whopper.Location = new Point(47, 610);
+            whopper.Location = new Point(48, 327);
             whopper.Name = "whopper";
             whopper.Size = new Size(175, 164);
             whopper.SizeMode = PictureBoxSizeMode.Zoom;
@@ -96,7 +96,7 @@
             stacker.BackColor = Color.White;
             stacker.Cursor = Cursors.Hand;
             stacker.Image = Properties.Resources.doublestacker;
-            stacker.Location = new Point(47, 848);
+            stacker.Location = new Point(48, 565);
             stacker.Name = "stacker";
             stacker.Size = new Size(175, 164);
             stacker.SizeMode = PictureBoxSizeMode.Zoom;
@@ -110,7 +110,7 @@
             plantbased.BackColor = Color.White;
             plantbased.Cursor = Cursors.Hand;
             plantbased.Image = Properties.Resources.Plantbased;
-            plantbased.Location = new Point(320, 848);
+            plantbased.Location = new Point(322, 828);
             plantbased.Name = "plantbased";
             plantbased.Size = new Size(175, 164);
             plantbased.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -124,7 +124,7 @@
             rodeo.BackColor = Color.White;
             rodeo.Cursor = Cursors.Hand;
             rodeo.Image = (Image)resources.GetObject("rodeo.Image");
-            rodeo.Location = new Point(606, 848);
+            rodeo.Location = new Point(322, 327);
             rodeo.Name = "rodeo";
             rodeo.Size = new Size(175, 164);
             rodeo.SizeMode = PictureBoxSizeMode.Zoom;
@@ -138,7 +138,7 @@
             xtralong.BackColor = Color.White;
             xtralong.Cursor = Cursors.Hand;
             xtralong.Image = Properties.Resources.extralong;
-            xtralong.Location = new Point(898, 848);
+            xtralong.Location = new Point(597, 828);
             xtralong.Name = "xtralong";
             xtralong.Size = new Size(175, 164);
             xtralong.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -152,7 +152,7 @@
             bigking.BackColor = Color.White;
             bigking.Cursor = Cursors.Hand;
             bigking.Image = Properties.Resources.bigxl;
-            bigking.Location = new Point(1160, 848);
+            bigking.Location = new Point(870, 828);
             bigking.Name = "bigking";
             bigking.Size = new Size(175, 164);
             bigking.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -167,7 +167,7 @@
             chking.BackColor = Color.White;
             chking.Cursor = Cursors.Hand;
             chking.Image = Properties.Resources.chikenking;
-            chking.Location = new Point(1160, 610);
+            chking.Location = new Point(597, 565);
             chking.Name = "chking";
             chking.Size = new Size(175, 164);
             chking.SizeMode = PictureBoxSizeMode.Zoom;
@@ -182,7 +182,7 @@
             nuggets.Cursor = Cursors.Hand;
             nuggets.ErrorImage = (Image)resources.GetObject("nuggets.ErrorImage");
             nuggets.Image = Properties.Resources.chicknugg;
-            nuggets.Location = new Point(898, 610);
+            nuggets.Location = new Point(597, 327);
             nuggets.Name = "nuggets";
             nuggets.Size = new Size(175, 164);
             nuggets.SizeMode = PictureBoxSizeMode.Zoom;
@@ -196,7 +196,7 @@
             fourcheese.BackColor = Color.White;
             fourcheese.Cursor = Cursors.Hand;
             fourcheese.Image = Properties.Resources.fourcheesewhopper;
-            fourcheese.Location = new Point(606, 610);
+            fourcheese.Location = new Point(322, 565);
             fourcheese.Name = "fourcheese";
             fourcheese.Size = new Size(175, 164);
             fourcheese.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -210,7 +210,7 @@
             baconking.BackColor = Color.White;
             baconking.Cursor = Cursors.Hand;
             baconking.Image = Properties.Resources.baconking;
-            baconking.Location = new Point(320, 610);
+            baconking.Location = new Point(48, 828);
             baconking.Name = "baconking";
             baconking.Size = new Size(175, 164);
             baconking.SizeMode = PictureBoxSizeMode.Zoom;
@@ -222,10 +222,10 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(295, 9);
+            dataGridView1.Location = new Point(797, 327);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1009, 227);
+            dataGridView1.Size = new Size(608, 453);
             dataGridView1.TabIndex = 13;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
             // 
